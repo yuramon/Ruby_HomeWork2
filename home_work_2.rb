@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# TASK 2.1
 # Convert string 'var_test_text' in 'varTestText'
 def convert_string(string)
   new_array = []
@@ -15,6 +16,7 @@ end
 
 puts convert_string('var_test_text')
 
+# TASK 2.2
 # Convert string 'ФЫВА олдж' to reverse string АВЫФ ждло'
 def reverse_string(string)
   new_array = []
@@ -29,6 +31,7 @@ end
 
 puts reverse_string('ФЫВА олдж')
 
+# TASK 2.3
 # Output numbers which contain 3
 def output_numbers_with_three(array_of_numbers)
   new_array = []
@@ -42,6 +45,7 @@ end
 
 puts output_numbers_with_three([342, 55, 33, 123, 66, 63, 9, 33])
 
+# TASK 2.4
 # Output count of number 3 in array
 def output_count_of_three(array_of_numbers)
   array_of_numbers.to_s.count('3')
